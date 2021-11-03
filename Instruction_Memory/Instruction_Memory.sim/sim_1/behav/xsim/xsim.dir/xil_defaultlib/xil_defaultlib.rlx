@@ -1,0 +1,9 @@
+0.7
+2020.2
+Jun 10 2021
+19:45:28
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/IMem.v,1635778022,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/sim_1/new/ins_mem_testbench.v,,Instruction_Memory,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/sim_1/new/ins_mem_testbench.v,1635881238,verilog,,,,ins_mem_testbench,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/sources_1/new/PC_Counter.v,1635885923,verilog,,/ad/eng/users/s/a/safarhat/Instruction_Memory/Instruction_Memory.srcs/sim_1/new/pc_testbench.v,,PC_Counter,,,,,,,,
+/ad/eng/users/s/a/safarhat/Instruction_Memory/Instruction_Memory.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+/ad/eng/users/s/a/safarhat/Instruction_Memory/Instruction_Memory.srcs/sim_1/new/pc_testbench.v,1635883898,verilog,,,,pc_testbench,,,,,,,,

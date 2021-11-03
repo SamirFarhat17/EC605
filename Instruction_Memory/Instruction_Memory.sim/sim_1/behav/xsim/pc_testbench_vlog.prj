@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/sources_1/new/PC_Counter.v" \
+"../../../../Instruction_Memory.srcs/sim_1/new/pc_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
