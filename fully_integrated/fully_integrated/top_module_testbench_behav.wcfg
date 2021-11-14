@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_module_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_module_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="49,979 ps"></ZoomStartTime>
+      <ZoomEndTime time="50,005 ps"></ZoomEndTime>
+      <Cursor1Time time="49,985 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="168"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject type="logic" fp_name="/top_module_testbench/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_module_testbench/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/ins">
+      <obj_property name="ElementShortName">ins[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/ins_Addr">
+      <obj_property name="ElementShortName">ins_Addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ins_Addr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/rReadData1">
+      <obj_property name="ElementShortName">rReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rReadData1[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/rReadData2">
+      <obj_property name="ElementShortName">rReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/rReadSelect1">
+      <obj_property name="ElementShortName">rReadSelect1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rReadSelect1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/rReadSelect2">
+      <obj_property name="ElementShortName">rReadSelect2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rReadSelect2[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/rWriteSelect">
+      <obj_property name="ElementShortName">rWriteSelect[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rWriteSelect[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/rWriteData">
+      <obj_property name="ElementShortName">rWriteData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rWriteData[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_module_testbench/top/datapath/rWriteEnable">
+      <obj_property name="ElementShortName">rWriteEnable</obj_property>
+      <obj_property name="ObjectShortName">rWriteEnable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/memReadData">
+      <obj_property name="ElementShortName">memReadData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">memReadData[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/memAddr">
+      <obj_property name="ElementShortName">memAddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">memAddr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_module_testbench/top/datapath/memWriteData">
+      <obj_property name="ElementShortName">memWriteData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">memWriteData[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_module_testbench/top/datapath/MemWrite">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_module_testbench/top/datapath/MemRead">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+</wave_config>
