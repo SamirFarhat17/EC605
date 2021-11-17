@@ -1,0 +1,518 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov  1 19:27:08 2021
+# Process ID: 28939
+# Current directory: /ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.runs/synth_1
+# Command line: vivado -log ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+# Log file: /ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.runs/synth_1/ALU.vds
+# Journal file: /ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ALU.tcl -notrace
+Command: synth_design -top ALU -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 29051
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2609.707 ; gain = 0.000 ; free physical = 18975 ; free virtual = 33258
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ALU' [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/sources_1/new/ALU.v:3]
+WARNING: [Synth 8-567] referenced signal 'out' should be on the sensitivity list [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/sources_1/new/ALU.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (1#1) [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/sources_1/new/ALU.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2609.707 ; gain = 0.000 ; free physical = 19860 ; free virtual = 34144
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2609.707 ; gain = 0.000 ; free physical = 19857 ; free virtual = 34141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2609.707 ; gain = 0.000 ; free physical = 19857 ; free virtual = 34141
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2609.707 ; gain = 0.000 ; free physical = 19849 ; free virtual = 34134
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc]
+WARNING: [Vivado 12-584] No ports matched 'ins[31]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[30]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[29]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[28]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[27]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[26]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[25]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[24]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[23]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[22]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[21]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[20]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[19]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[18]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[17]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[16]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[15]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[14]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[13]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[12]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[11]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[10]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[9]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[8]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[7]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[6]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[5]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[4]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[3]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[2]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[1]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins[0]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[63]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[62]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[61]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[60]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[59]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[58]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[57]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[56]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[55]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[54]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[53]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[52]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[51]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[50]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[49]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[48]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[47]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[46]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[45]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[44]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[43]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[42]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[41]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[40]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[39]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[38]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[37]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[36]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[35]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[34]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[33]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[32]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[31]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[30]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[29]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[28]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[27]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[26]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[25]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[24]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[23]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[22]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[21]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[20]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[19]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[18]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[17]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[16]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[15]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[14]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[13]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[12]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[11]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[10]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[9]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[8]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[7]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[6]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[5]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[4]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[3]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[2]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[1]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ins_Addr[0]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'memAddr[63]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'memAddr[62]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'memAddr[61]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'memAddr[60]'. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:100]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/constrs_1/new/lab_5.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ALU_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ALU_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2673.594 ; gain = 0.000 ; free physical = 19729 ; free virtual = 34013
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2673.594 ; gain = 0.000 ; free physical = 19729 ; free virtual = 34013
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19824 ; free virtual = 34108
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19824 ; free virtual = 34108
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19824 ; free virtual = 34108
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19813 ; free virtual = 34100
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   64 Bit       Adders := 1     
++---XORs : 
+	   2 Input     64 Bit         XORs := 1     
++---Muxes : 
+	   9 Input   64 Bit        Muxes := 1     
+	   8 Input   64 Bit        Muxes := 1     
+	   9 Input    3 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19787 ; free virtual = 34082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19654 ; free virtual = 33958
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19654 ; free virtual = 33957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19650 ; free virtual = 33954
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19649 ; free virtual = 33953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19649 ; free virtual = 33953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19649 ; free virtual = 33953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19649 ; free virtual = 33953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19649 ; free virtual = 33953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19649 ; free virtual = 33953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    16|
+|2     |LUT1   |     1|
+|3     |LUT3   |    65|
+|4     |LUT4   |     9|
+|5     |LUT5   |     3|
+|6     |LUT6   |    77|
+|7     |IBUF   |   132|
+|8     |OBUF   |    65|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19649 ; free virtual = 33953
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 2673.594 ; gain = 0.000 ; free physical = 19704 ; free virtual = 34008
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2673.594 ; gain = 63.887 ; free physical = 19704 ; free virtual = 34008
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2673.594 ; gain = 0.000 ; free physical = 19696 ; free virtual = 34001
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2673.594 ; gain = 0.000 ; free physical = 19784 ; free virtual = 34036
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 9ca74bf7
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 101 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 2673.594 ; gain = 68.156 ; free physical = 19936 ; free virtual = 34188
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint '/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.runs/synth_1/ALU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU_utilization_synth.rpt -pb ALU_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  1 19:28:22 2021...

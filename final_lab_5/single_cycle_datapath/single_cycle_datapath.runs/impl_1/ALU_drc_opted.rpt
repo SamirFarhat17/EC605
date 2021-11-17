@@ -1,0 +1,269 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Mon Nov  1 19:30:37 2021
+| Host         : signals17 running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : report_drc -file ALU_drc_opted.rpt -pb ALU_drc_opted.pb -rpx ALU_drc_opted.rpx
+| Design       : ALU
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 4
++-----------+------------------+-----------------------------------------------------+------------+
+| Rule      | Severity         | Description                                         | Violations |
++-----------+------------------+-----------------------------------------------------+------------+
+| PLIOSTD-2 | Error            | IOSTANDARD violations                               | 1          |
+| UCIO-1    | Critical Warning | Unconstrained Logical Port                          | 1          |
+| CFGBVS-1  | Warning          | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
+| IOCNT-1   | Warning          | Number of IOs                                       | 1          |
++-----------+------------------+-----------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLIOSTD-2#1 Error
+IOSTANDARD violations  
+High Range (HR) banks 14, 16, 34 and 35 have insufficient capacity to support the IOSTANDARDs defined for this design. There are 131 IO available in the High Range (HR) banks but this design has 197 IO that require placement in an High Range (HR) bank. Please review the IOSTANDARD specifications for the IO below that require placement in an High Range (HR) bank to determine if the IOSTANDARDs need to be modified or the target device needs to change to support the design's requirements: 
+    1. A[0] { LVCMOS33 }
+    2. A[10] { LVCMOS33 }
+    3. A[11] { LVCMOS33 }
+    4. A[12] { LVCMOS33 }
+    5. A[13] { LVCMOS33 }
+    6. A[14] { LVCMOS33 }
+    7. A[15] { LVCMOS33 }
+    8. A[16] { LVCMOS33 }
+    9. A[17] { LVCMOS33 }
+    10. A[18] { LVCMOS33 }
+    11. A[19] { LVCMOS33 }
+    12. A[1] { LVCMOS33 }
+    13. A[20] { LVCMOS33 }
+    14. A[21] { LVCMOS33 }
+    15. A[22] { LVCMOS33 }
+    16. A[23] { LVCMOS33 }
+    17. A[24] { LVCMOS33 }
+    18. A[25] { LVCMOS33 }
+    19. A[26] { LVCMOS33 }
+    20. A[27] { LVCMOS33 }
+    21. A[28] { LVCMOS33 }
+    22. A[29] { LVCMOS33 }
+    23. A[2] { LVCMOS33 }
+    24. A[30] { LVCMOS33 }
+    25. A[31] { LVCMOS33 }
+    26. A[32] { LVCMOS33 }
+    27. A[33] { LVCMOS33 }
+    28. A[34] { LVCMOS33 }
+    29. A[35] { LVCMOS33 }
+    30. A[36] { LVCMOS33 }
+    31. A[37] { LVCMOS33 }
+    32. A[38] { LVCMOS33 }
+    33. A[39] { LVCMOS33 }
+    34. A[3] { LVCMOS33 }
+    35. A[40] { LVCMOS33 }
+    36. A[41] { LVCMOS33 }
+    37. A[42] { LVCMOS33 }
+    38. A[43] { LVCMOS33 }
+    39. A[44] { LVCMOS33 }
+    40. A[45] { LVCMOS33 }
+    41. A[46] { LVCMOS33 }
+    42. A[47] { LVCMOS33 }
+    43. A[48] { LVCMOS33 }
+    44. A[49] { LVCMOS33 }
+    45. A[4] { LVCMOS33 }
+    46. A[50] { LVCMOS33 }
+    47. A[51] { LVCMOS33 }
+    48. A[52] { LVCMOS33 }
+    49. A[53] { LVCMOS33 }
+    50. A[54] { LVCMOS33 }
+    51. A[55] { LVCMOS33 }
+    52. A[56] { LVCMOS33 }
+    53. A[57] { LVCMOS33 }
+    54. A[58] { LVCMOS33 }
+    55. A[59] { LVCMOS33 }
+    56. A[5] { LVCMOS33 }
+    57. A[60] { LVCMOS33 }
+    58. A[61] { LVCMOS33 }
+    59. A[62] { LVCMOS33 }
+    60. A[63] { LVCMOS33 }
+    61. A[6] { LVCMOS33 }
+    62. A[7] { LVCMOS33 }
+    63. A[8] { LVCMOS33 }
+    64. A[9] { LVCMOS33 }
+    65. B[0] { LVCMOS33 }
+    66. B[10] { LVCMOS33 }
+    67. B[11] { LVCMOS33 }
+    68. B[12] { LVCMOS33 }
+    69. B[13] { LVCMOS33 }
+    70. B[14] { LVCMOS33 }
+    71. B[15] { LVCMOS33 }
+    72. B[16] { LVCMOS33 }
+    73. B[17] { LVCMOS33 }
+    74. B[18] { LVCMOS33 }
+    75. B[19] { LVCMOS33 }
+    76. B[1] { LVCMOS33 }
+    77. B[20] { LVCMOS33 }
+    78. B[21] { LVCMOS33 }
+    79. B[22] { LVCMOS33 }
+    80. B[23] { LVCMOS33 }
+    81. B[24] { LVCMOS33 }
+    82. B[25] { LVCMOS33 }
+    83. B[26] { LVCMOS33 }
+    84. B[27] { LVCMOS33 }
+    85. B[28] { LVCMOS33 }
+    86. B[29] { LVCMOS33 }
+    87. B[2] { LVCMOS33 }
+    88. B[30] { LVCMOS33 }
+    89. B[31] { LVCMOS33 }
+    90. B[32] { LVCMOS33 }
+    91. B[33] { LVCMOS33 }
+    92. B[34] { LVCMOS33 }
+    93. B[35] { LVCMOS33 }
+    94. B[36] { LVCMOS33 }
+    95. B[37] { LVCMOS33 }
+    96. B[38] { LVCMOS33 }
+    97. B[39] { LVCMOS33 }
+    98. B[3] { LVCMOS33 }
+    99. B[40] { LVCMOS33 }
+    100. B[41] { LVCMOS33 }
+    101. B[42] { LVCMOS33 }
+    102. B[43] { LVCMOS33 }
+    103. B[44] { LVCMOS33 }
+    104. B[45] { LVCMOS33 }
+    105. B[46] { LVCMOS33 }
+    106. B[47] { LVCMOS33 }
+    107. B[48] { LVCMOS33 }
+    108. B[49] { LVCMOS33 }
+    109. B[4] { LVCMOS33 }
+    110. B[50] { LVCMOS33 }
+    111. B[51] { LVCMOS33 }
+    112. B[52] { LVCMOS33 }
+    113. B[53] { LVCMOS33 }
+    114. B[54] { LVCMOS33 }
+    115. B[55] { LVCMOS33 }
+    116. B[56] { LVCMOS33 }
+    117. B[57] { LVCMOS33 }
+    118. B[58] { LVCMOS33 }
+    119. B[59] { LVCMOS33 }
+    120. B[5] { LVCMOS33 }
+    121. B[60] { LVCMOS33 }
+    122. B[61] { LVCMOS33 }
+    123. B[62] { LVCMOS33 }
+    124. B[63] { LVCMOS33 }
+    125. B[6] { LVCMOS33 }
+    126. B[7] { LVCMOS33 }
+    127. B[8] { LVCMOS33 }
+    128. B[9] { LVCMOS33 }
+    129. opcode[0] { LVCMOS33 }
+    130. opcode[1] { LVCMOS33 }
+    131. opcode[2] { LVCMOS33 }
+    132. opcode[3] { LVCMOS33 }
+    133. out[0] { LVCMOS33 }
+    134. out[10] { LVCMOS33 }
+    135. out[11] { LVCMOS33 }
+    136. out[12] { LVCMOS33 }
+    137. out[13] { LVCMOS33 }
+    138. out[14] { LVCMOS33 }
+    139. out[15] { LVCMOS33 }
+    140. out[16] { LVCMOS33 }
+    141. out[17] { LVCMOS33 }
+    142. out[18] { LVCMOS33 }
+    143. out[19] { LVCMOS33 }
+    144. out[1] { LVCMOS33 }
+    145. out[20] { LVCMOS33 }
+    146. out[21] { LVCMOS33 }
+    147. out[22] { LVCMOS33 }
+    148. out[23] { LVCMOS33 }
+    149. out[24] { LVCMOS33 }
+    150. out[25] { LVCMOS33 }
+    151. out[26] { LVCMOS33 }
+    152. out[27] { LVCMOS33 }
+    153. out[28] { LVCMOS33 }
+    154. out[29] { LVCMOS33 }
+    155. out[2] { LVCMOS33 }
+    156. out[30] { LVCMOS33 }
+    157. out[31] { LVCMOS33 }
+    158. out[32] { LVCMOS33 }
+    159. out[33] { LVCMOS33 }
+    160. out[34] { LVCMOS33 }
+    161. out[35] { LVCMOS33 }
+    162. out[36] { LVCMOS33 }
+    163. out[37] { LVCMOS33 }
+    164. out[38] { LVCMOS33 }
+    165. out[39] { LVCMOS33 }
+    166. out[3] { LVCMOS33 }
+    167. out[40] { LVCMOS33 }
+    168. out[41] { LVCMOS33 }
+    169. out[42] { LVCMOS33 }
+    170. out[43] { LVCMOS33 }
+    171. out[44] { LVCMOS33 }
+    172. out[45] { LVCMOS33 }
+    173. out[46] { LVCMOS33 }
+    174. out[47] { LVCMOS33 }
+    175. out[48] { LVCMOS33 }
+    176. out[49] { LVCMOS33 }
+    177. out[4] { LVCMOS33 }
+    178. out[50] { LVCMOS33 }
+    179. out[51] { LVCMOS33 }
+    180. out[52] { LVCMOS33 }
+    181. out[53] { LVCMOS33 }
+    182. out[54] { LVCMOS33 }
+    183. out[55] { LVCMOS33 }
+    184. out[56] { LVCMOS33 }
+    185. out[57] { LVCMOS33 }
+    186. out[58] { LVCMOS33 }
+    187. out[59] { LVCMOS33 }
+    188. out[5] { LVCMOS33 }
+    189. out[60] { LVCMOS33 }
+    190. out[61] { LVCMOS33 }
+    191. out[62] { LVCMOS33 }
+    192. out[63] { LVCMOS33 }
+    193. out[6] { LVCMOS33 }
+    194. out[7] { LVCMOS33 }
+    195. out[8] { LVCMOS33 }
+    196. out[9] { LVCMOS33 }
+    197. zero { LVCMOS33 }
+
+Related violations: <none>
+
+UCIO-1#1 Critical Warning
+Unconstrained Logical Port  
+197 out of 197 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: A[63:0], B[63:0], opcode[3:0], out[63:0], zero.
+Related violations: <none>
+
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+IOCNT-1#1 Warning
+Number of IOs  
+The design contains 197 unplaced I/O ports while the target device, xc7a35tcpg236-1, has 106 remaining available user I/O pins. This DRC assumes that all ports which do not drive MGT pins should be placed on user I/O pins. To correct this issue:
+1. Ensure you are targeting the correct device and package. Select a larger device or different package if necessary.
+2. Check the top-level ports of the design to ensure the correct number of ports are specified.
+3. Consider design changes to reduce the number of user I/O pins needed.
+
+Related violations: <none>
+
+

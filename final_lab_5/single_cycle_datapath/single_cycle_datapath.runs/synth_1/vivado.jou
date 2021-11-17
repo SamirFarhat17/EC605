@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov  1 19:27:08 2021
+# Process ID: 28939
+# Current directory: /ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.runs/synth_1
+# Command line: vivado -log ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+# Log file: /ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.runs/synth_1/ALU.vds
+# Journal file: /ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ALU.tcl -notrace

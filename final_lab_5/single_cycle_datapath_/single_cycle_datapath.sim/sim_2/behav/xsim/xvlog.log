@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.srcs/sim_1/new/ins_mem_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ins_mem_testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/single_cycle_datapath/single_cycle_datapath.sim/sim_2/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,16 @@
+0.7
+2020.2
+Jun 10 2021
+19:45:28
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sim_1/new/top_module_testbench.v,1636853671,verilog,,,,top_module_testbench,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/ALU.v,1636845721,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/Control_Unit.v,,ALU,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/Control_Unit.v,1636854422,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/DataPath.v,,Control_Unit,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/DataPath.v,1636854150,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/Data_Mem.v,,DataPath,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/Data_Mem.v,1636842402,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/IMem.v,,Data_Mem,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/IMem.v,1636818272,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/new/MUX.v,,Instruction_Memory,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/PC_Counter.v,1636844359,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/Register_File.v,,PC_Counter,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/Register_File.v,1636842677,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/new/instr_parse.v,,Register_File,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/new/MUX.v,1636853089,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/imports/Downloads/PC_Counter.v,,MUX,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/new/instr_parse.v,1636844570,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/new/top_module.v,,instr_parse,,,,,,,,
+/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sources_1/new/top_module.v,1636843185,verilog,,/ad/eng/users/s/a/safarhat/Documents/EC605/lab_5/fully_integrated/fully_integrated.srcs/sim_1/new/top_module_testbench.v,,top_module,,,,,,,,
